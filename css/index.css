@@ -179,7 +179,8 @@ footer .menu-column a:hover {
     .banner .description{
         width: 100% !important;
         font-size: 10px;
-        padding-top: 50px !important;
+        padding-top: 20px !important;
+        padding-left: 20px !important;
         
     }
 
@@ -217,12 +218,23 @@ footer .menu-column a:hover {
 
     .cardcontainer{
         display: grid !important;
-        grid-template-columns: repeat(2, 1fr) !important;
-        row-gap: 25px;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 25px;
     }
+
+    .menu-container .menu-column h3{
+        font-size: 10px;
+    }
+
+    .menu-container .menu-column a{
+        font-size: 8px !important;
+    }
+    
 
     *{
         box-shadow: inset 0px 0px 3px greenyellow;
     }
+
+
 
 }
