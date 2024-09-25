@@ -213,13 +213,16 @@ footer .menu-column a:hover {
     }
 
     .card{
-        width: 13rem !important;
+        min-width: 18rem !important;
+        width: 100% !important;
+
     }
 
     .cardcontainer{
         display: grid !important;
         grid-template-columns: repeat(1, 1fr) !important;
         gap: 25px;
+        width: 100% !important;
     }
 
     .menu-container .menu-column h3{
@@ -229,11 +232,15 @@ footer .menu-column a:hover {
     .menu-container .menu-column a{
         font-size: 8px !important;
     }
+
+    h1{
+        font-size: 17px;
+    }
     
 
-    *{
+    /* *{
         box-shadow: inset 0px 0px 3px greenyellow;
-    }
+    } */
 
 
 
