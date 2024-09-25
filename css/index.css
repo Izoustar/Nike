@@ -221,4 +221,8 @@ footer .menu-column a:hover {
         row-gap: 25px;
     }
 
+    *{
+        box-shadow: inset 0px 0px 3px greenyellow;
+    }
+
 }
