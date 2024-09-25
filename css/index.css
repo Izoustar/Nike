@@ -158,7 +158,7 @@ footer .menu-column a:hover {
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     .navbar{
         width: 100%;
     }
