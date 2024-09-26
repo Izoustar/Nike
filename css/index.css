@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
     /* box-shadow: inset 0px 0px 3px greenyellow; */
 }
@@ -79,11 +79,13 @@ header .banner button:hover {
     text-transform: uppercase;
 }
 
-.Model, .fort_sport, .news {
+.Model,
+.fort_sport,
+.news {
     padding: 50px;
 }
 
-.img1{
+.img1 {
     width: 100%;
     overflow-x: scroll;
 }
@@ -159,89 +161,151 @@ footer .menu-column a:hover {
 
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-    .navbar{
+    .navbar {
         width: 100%;
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         display: none;
     }
-    .container-fluid{
+
+    .container-fluid {
         display: flex !important;
         justify-content: space-between !important;
     }
-    .banner{
+
+    .banner {
         width: 100% !important;
         background-position: center !important;
         background-size: cover !important;
         height: 55vh !important
     }
 
-    .banner .description{
+    .banner .description {
         width: 100% !important;
         font-size: 10px;
         padding-top: 20px !important;
         padding-left: 20px !important;
-        
     }
 
-    .banner .description h1{
+    .banner .description h1 {
         font-size: 43px !important;
     }
 
-    .banner .description{
+    .banner .description {
         font-size: 1em;
     }
 
-    .tendance{
+    .tendance {
         padding: 20px !important;
     }
 
-    .Model{
+    .Model {
         padding: 5px 20px;
     }
 
-    .fort_sport, .news{
+    .fort_sport,
+    .news {
         padding: 20px !important;
     }
 
-    .img1 img{
+    .img1 img {
         width: 250px;
     }
 
-    .Article{
+    .Article {
         padding: 20px;
     }
 
-    .card{
+    .card {
         min-width: 18rem !important;
         width: 100% !important;
-
     }
 
-    .cardcontainer{
+    .cardcontainer {
         display: grid !important;
         grid-template-columns: repeat(1, 1fr) !important;
         gap: 25px;
         width: 100% !important;
     }
 
-    .menu-container .menu-column h3{
+    .menu-container .menu-column h3 {
         font-size: 10px;
     }
 
-    .menu-container .menu-column a{
+    .menu-container .menu-column a {
         font-size: 8px !important;
     }
 
-    h1{
+    h1 {
         font-size: 17px;
     }
-    
 
-    /* *{
-        box-shadow: inset 0px 0px 3px greenyellow;
-    } */
+}
 
+@media screen and (min-width: 481px) and (max-width: 720px) {
+    .banner{
+        width: 100% !important;
+        background-position: center !important;
+        background-size: cover !important;
+        height: 50vh !important
+    }
 
+    .banner .description {
+        width: 100% !important;
+        font-size: 10px;
+        padding: 35px !important;
+    }
+
+    .banner .description h1 {
+        font-size: 43px !important;
+    }
+
+    .tendance {
+        padding: 20px !important;
+    }
+
+    .img1 img {
+        width: 400px !important;
+    }
+
+    .fort_sport, .news {
+        padding: 20px !important;
+    }
+
+    .Model {
+        padding: 5px 20px;
+    }
+
+    .cardcontainer {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 25px;
+        width: 100% !important;
+    }
+
+    .card {
+        min-width: 18rem !important;
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (min-width: 720px) {
+    header .banner .description small {
+        font-size: 1em;
+    }
+
+    .cardcontainer {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 25px;
+        width: 100% !important;
+    }
+
+    .card {
+        min-width: 18rem !important;
+        width: 100% !important;
+    }
 
 }
